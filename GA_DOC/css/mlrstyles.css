@@ -1,0 +1,250 @@
+/* main page css */
+footer{
+  padding-bottom: 40vh;
+  background-color: #EDEDED;
+}
+
+#footer-info{
+  height: 30vh;
+  width: 40%;
+  float: left;
+  margin-top: 10px;
+}
+
+#footer-contact{
+  height: 30vh;
+  width: 40%;
+  float: left;
+  margin-left: 20px;
+}
+
+/* Register css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins',sans-serif;
+}
+
+body{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   background: linear-gradient(135deg, #00EFD1, #00ACEA);
+}
+
+.container{
+   max-width:780px;
+   width: 100%;
+   background-color: #fff;
+   padding: 25px 30px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.container .title{
+   font-size: 25px;
+   font-weight: 500;
+   position: relative;
+}
+
+.container .title::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   height: 3px;
+   width: 30px;
+   border-radius: 5px;
+   background: linear-gradient(135deg, #00EFD1, #00ACEA);
+}
+
+.content form .user-details{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+   margin-bottom: 15px;
+   width: calc(100% / 2 - 20px);
+}
+
+form .input-box span.details{
+   display: block;
+   font-weight: 500;
+   margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+   height: 45px;
+   width: 100%;
+   outline: none;
+   font-size: 16px;
+   border-radius: 5px;
+   padding-left: 15px;
+   border: 1px solid #ccc;
+   border-bottom-width: 2px;
+   transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+   border-color: #00ECEA;
+}
+
+.content form .text{
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.content form .text a{
+  text-decoration: none;
+}
+
+.content form .text a:hover{
+  text-decoration: underline;
+}
+
+.content form .register-text{
+  text-align: center;
+  margin-top: 25px;
+}
+
+form .button{
+  height: 45px;
+  margin: 35px 0
+}
+
+form .button input{
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #00EFD1, #00ACEA);
+}
+
+form .button input:hover{
+ background: linear-gradient(-135deg, #00EFD1, #00ACEA);
+ }
+
+@media(max-width: 584px){
+.container{
+ max-width: 100%;
+}
+
+form .user-details .input-box{
+   margin-bottom: 15px;
+   width: 100%;
+ }
+
+ form .category{
+   width: 100%;
+ }
+
+ .content form .user-details{
+   max-height: 300px;
+   overflow-y: scroll;
+ }
+
+ .user-details::-webkit-scrollbar{
+   width: 5px;
+ }
+ }
+
+ @media(max-width: 100%){
+ .container .content .category{
+   flex-direction: column;
+ }
+}
+
+form .login-now{
+  color: #25316D;
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .login-now a{
+  color: #00ACEA;
+  text-decoration: none;
+}
+
+form .login-now a:hover{
+  text-decoration: underline;
+}
+
+/* login css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(-135deg, #00FED1, #00ACEA);
+}
+
+form .register-now{
+  color: #25316D;
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .register-now a{
+  color: #00ACEA;
+  text-decoration: none;
+}
+
+form .register-now a:hover{
+  text-decoration: underline;
+}
+
+.contents form .users-details{
+   justify-content: center;
+   margin: 20px 0 12px 0;
+}
+
+form .users-details .input-boxx{
+   margin-bottom: 15px;
+   width: calc(100% / 2 - 20px);
+}
+
+form .input-boxx span.details{
+   display: flex;
+   font-weight: 500;
+   margin-bottom: 5px;
+}
+
+.users-details .input-boxx input{
+   height: 45px;
+   width: 234%;
+   outline: none;
+   font-size: 16px;
+   border-radius: 5px;
+   padding-left: 15px;
+   border: 1px solid #ccc;
+   border-bottom-width: 2px;
+   transition: all 0.3s ease;
+}
+
+.users-details .input-boxx input:focus,
+.users-details .input-boxx input:valid{
+   border-color: #00ECEA;
+}

@@ -1,0 +1,35 @@
+.form-body{
+  text-align: center;
+  margin: 15%;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 20px;
+}
+
+.form-input{
+  display: block;
+  margin: 10px auto;
+  height: auto ;
+}
+
+input,label{
+  width: 50%;
+  height: 50px;
+}
+
+button{
+  size:50px;
+  height: auto;
+}
+
+.redirect{
+  display: flex;
+  margin-left: 15%;
+}
+
+.redirect a{
+  display: flex;
+  padding-left: 80px;
+}

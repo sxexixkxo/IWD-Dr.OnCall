@@ -1,0 +1,59 @@
+hr {
+    background-color: #074f57;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+  max-width: 30%;
+  margin: 0 2% 2% 0;
+}
+.row{
+  justify-content: center;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.cover{
+  background-color: #074f57;
+  background-image: url("../image/browse.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.cover2{
+    background-color: white;
+    background-image: url("../image/appointment.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-height: 5%;
+}
+
+.breadcrumb {
+  margin-left: 15%;
+  padding-top: 0%;
+  background-color: transparent !important;
+}
+#seperator{
+  color: red;
+}
+#form-container{
+  padding: 2% 2% 2% 2%;
+}
+
+#cover-container{
+  padding-top: 7%;
+  padding-bottom: 1%;
+}
+#cover-container2{
+  padding-top: 20%;
+  padding-bottom: 1%;
+}
+#display-container{
+  flex-wrap: wrap;
+  padding-top: 1%;
+  margin-bottom: 1%;
+}
